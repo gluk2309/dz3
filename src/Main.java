@@ -5,7 +5,7 @@ public class Main {
         int replenishment = 1000;
         int percent = replenishment / 100;
 
-        if (replenishment >= 1000) {
+        if (replenishment > 1000) {
             System.out.print("Ваш баланс ");
             System.out.println(replenishment + percent + balance);
             System.out.print("Ваши бонусы ");
